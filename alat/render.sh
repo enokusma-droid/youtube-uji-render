@@ -6,9 +6,13 @@ KODE="$1"; TOOL="${2:-semua}"
 R=enokusma-droid/youtube-uji-render
 export GH_TOKEN="$(gh auth token -u enokusma-droid)"  # per proses, JANGAN gh auth switch
 cd "$(dirname "$0")/.."
+# kunci sederhana supaya 2 render paralel tidak bentrok di git
+until mkdir .git/render.lock 2>/dev/null; do sleep 3; done; trap 'rmdir .git/render.lock 2>/dev/null || true' EXIT
 git add -A "proyek/$KODE" .github alat pustaka
 git -c user.name="faceless-ci" -c user.email="ci@nusawebsite.com" commit -qm "proyek $KODE" || true
+git pull -q --rebase origin main || true
 git push -q origin HEAD
+rmdir .git/render.lock; trap - EXIT
 gh workflow run render.yml -R $R -f kode="$KODE" -f tool="$TOOL"
 # cari run milik kode ini (run-name "render <kode> <tool>"), aman bila beberapa render jalan bersamaan
 ID=""; for i in $(seq 1 30); do sleep 5; ID=$(gh run list -R $R -w render.yml -L 20 --json databaseId,displayTitle,status -q "[.[]|select(.displayTitle==\"render $KODE $TOOL\" and .status!=\"completed\")][0].databaseId // empty"); [ -n "$ID" ] && break; done
