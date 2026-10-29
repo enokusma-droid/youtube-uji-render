@@ -1,0 +1,25 @@
+{
+  "name": "whiteboard-video-skill",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "captions": true,
+  "captionSize": 38,
+  "pen": true,
+  "pan": 0.45,
+  "lead": 0.0,
+  "gap": 0.0,
+  "tail": 0.3,
+  "endHold": 0.6,
+  "palette": {
+    "ink": "#1f2328",
+    "blue": "#3b5bdb",
+    "gold": "#e0a106",
+    "red": "#d6453b",
+    "green": "#2f9a58",
+    "gray": "#6b7079",
+    "paper": "#fbfbf8",
+    "paperCenter": "#ffffff",
+    "paperEdge": "#f1f0ea"
+  }
+}

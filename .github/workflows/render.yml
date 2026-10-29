@@ -1,0 +1,92 @@
+# Render video whiteboard faceless channel YouTube uji (repo publik enokusma-droid/youtube-uji-render, 29 Okt 2026; asal faceless-whiteboard-render).
+# Jalankan: gh workflow run render.yml -f kode="seo-001" -f tool="semua"
+# Hasil: G3 konten/youtube/<kode>/<tool>.mp4 + artifact (mp4 + frame QC, 7 hari).
+name: render-whiteboard
+on:
+  workflow_dispatch:
+    inputs:
+      kode:
+        description: "Folder di proyek/, dipisah koma, mis. seo-001,seo-002"
+        required: true
+      tool:
+        description: "semua (= whiteboard-video-skill + handanim) | whiteboard-video-skill | handanim"
+        default: "semua"
+env:
+  WVS_REPO: https://github.com/Matteoikarieth96/whiteboard-video-skill
+  WVS_SHA: 2615b78f1e7f1bce6a0200d40b3f16267935beb9
+  HA_REPO: https://github.com/subroy13/handanim
+  HA_SHA: ec55630c33fa6da07cfc7f3cbcc2b5dbef07ba06
+jobs:
+  siapkan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - id: m
+        run: echo "matrix=$(echo '${{ inputs.kode }}' | jq -Rc 'split(",") | map(gsub(" ";"")) | map(select(length>0))')" >> "$GITHUB_OUTPUT"
+  render:
+    needs: siapkan
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        kode: ${{ fromJson(needs.siapkan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Pasang ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null && ffmpeg -version | head -1
+      - name: whiteboard-video-skill
+        if: inputs.tool == 'semua' || contains(inputs.tool, 'whiteboard-video-skill')
+        run: |
+          git clone -q "$WVS_REPO" /tmp/wvs && git -C /tmp/wvs checkout -q "$WVS_SHA"
+          (cd /tmp/wvs/scripts && npm ci --silent)
+          P="$PWD/proyek/${{ matrix.kode }}"; W=/tmp/proj/wvs-${{ matrix.kode }}
+          mkdir -p /tmp/proj && cp -r "$P/wvs" "$W"
+          node pustaka/wvs/rakit.js "$W"   # adegan.js + pustaka -> scenes.js (proyek lama tanpa adegan.js dilewati)
+          python /tmp/wvs/scripts/make_audio.py "$W"
+          CHROME_PATH=$(which google-chrome) node /tmp/wvs/scripts/render.js "$W" full
+          mkdir -p "$P/hasil" && cp "$W"/out/*.mp4 "$P/hasil/whiteboard-video-skill.mp4"
+      - name: handanim
+        if: inputs.tool == 'semua' || contains(inputs.tool, 'handanim')
+        run: |
+          sudo apt-get install -y -qq libcairo2-dev pkg-config > /dev/null
+          git clone -q "$HA_REPO" /tmp/ha && git -C /tmp/ha checkout -q "$HA_SHA"
+          pip install -q -r /tmp/ha/requirements.txt && pip install -q -e /tmp/ha
+          P="proyek/${{ matrix.kode }}"; python "$P/handanim/buat.py"
+          if [ -f "$P/handanim/vo.wav" ]; then
+            # VO per kalimat: buat.py sudah menggabungkan dengan jeda yang sama persis dengan timeline visual
+            ffmpeg -v error -y -i "$P/handanim/vo.wav" -ar 48000 /tmp/ha-vo.wav
+          else
+            A=""; F=""; n=$(ls $P/vo/s*.wav | wc -l)
+            for i in $(seq 1 $n); do A="$A -i $P/vo/s$i.wav"; F="$F[$((i-1)):a]apad=pad_dur=0.3[a$i];"; done
+            L=""; for i in $(seq 1 $n); do L="$L[a$i]"; done
+            ffmpeg -v error -y $A -filter_complex "${F}${L}concat=n=$n:v=0:a=1[a]" -map "[a]" -ar 48000 /tmp/ha-vo.wav
+          fi
+          mkdir -p "$P/hasil"
+          ffmpeg -v error -y -i "$P/handanim/visual.mp4" -i /tmp/ha-vo.wav -map 0:v -map 1:a -vf scale=1920:1080 -c:v libx264 -crf 20 -pix_fmt yuv420p -c:a aac -b:a 160k -shortest -movflags +faststart "$P/hasil/handanim.mp4"
+      - name: Frame QC
+        if: always()
+        run: |
+          cd "proyek/${{ matrix.kode }}/hasil" || exit 0
+          for f in *.mp4; do ffmpeg -v error -y -i "$f" -vf "fps=1/7,scale=480:-1,tile=5x1" -frames:v 1 "qc-${f%.mp4}.png"; ffprobe -v error -show_entries format=duration -of csv=p=0 "$f"; done
+      - name: Simpan ke G3
+        env:
+          S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
+          S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
+          S3_SECRET: ${{ secrets.S3_SECRET }}
+          S3_REGION: ${{ secrets.S3_REGION }}
+        run: |
+          pip install -q boto3
+          python simpan-g3.py "proyek/${{ matrix.kode }}"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: hasil-${{ matrix.kode }}
+          path: proyek/${{ matrix.kode }}/hasil/
+          retention-days: 7
