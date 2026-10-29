@@ -1,0 +1,1 @@
+Hitung untung bersih, tetapkan gaji pemilik, dan catat tiga angka tiap malam.

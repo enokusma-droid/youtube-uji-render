@@ -1,0 +1,25 @@
+{
+  "name": "N2-001",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "captions": true,
+  "captionSize": 38,
+  "pen": true,
+  "pan": 0.45,
+  "lead": 0.0,
+  "gap": 0.0,
+  "tail": 0.3,
+  "endHold": 0.6,
+  "palette": {
+    "ink": "#0B3C49",
+    "blue": "#1F6F85",
+    "gold": "#F2A33A",
+    "red": "#F26B21",
+    "green": "#1E8A6B",
+    "gray": "#5E7A82",
+    "paper": "#FFF4DC",
+    "paperCenter": "#FFF9EC",
+    "paperEdge": "#F7E8C6"
+  }
+}

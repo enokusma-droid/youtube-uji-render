@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # Push, render di GitHub Actions, tunggu, unduh, buat grid frame QC, pastikan video ada di G3.
 # Pakai (dari E:\youtube-proyek\render-wb): bash alat/render.sh <kode> [semua|whiteboard-video-skill|handanim]
-ender-wb): bash alat/render.sh <kode> [semua|whiteboard-video-skill|handanim]
 set -euo pipefail
 KODE="$1"; TOOL="${2:-semua}"
 R=enokusma-droid/youtube-uji-render

@@ -1,0 +1,239 @@
+[
+ {
+  "id": "pembuka",
+  "lines": [
+   {
+    "t": "Toko kelontong ramai dari pagi sampai malam, kok uang di laci selalu kurang?"
+   },
+   {
+    "t": "Misalnya omzet sebuah toko dua juta rupiah sehari, tapi pemiliknya tetap harus menambal stok dari uang sendiri."
+   },
+   {
+    "t": "Biasanya penyebabnya bukan nasib buruk, melainkan tiga angka yang tidak pernah dicatat."
+   },
+   {
+    "t": "Enam menit ke depan, kita hitung satu per satu, lengkap dengan contoh angkanya."
+   },
+   {
+    "t": "Di akhir, kamu akan tahu cara menutup bocornya dengan buku tulis biasa."
+   }
+  ]
+ },
+ {
+  "id": "fakta",
+  "lines": [
+   {
+    "t": "Warung dan toko kelontong bukan usaha kecil yang bisa dianggap remeh."
+   },
+   {
+    "t": "Menurut Kementerian Perdagangan pada Februari 2026, toko kelontong menguasai lebih dari 98 persen ekosistem ritel di Indonesia."
+   },
+   {
+    "t": "Namun asosiasi pedagang memperkirakan jumlahnya tinggal sekitar 3,9 juta pada akhir 2025, turun dari 6,1 juta pada tahun 2007."
+   },
+   {
+    "t": "Menteri Perdagangan membantah bahwa minimarket jadi penyebab utamanya."
+   },
+   {
+    "t": "Jadi, mari kita lihat apa yang terjadi di dalam tokonya sendiri."
+   }
+  ]
+ },
+ {
+  "id": "omzet",
+  "lines": [
+   {
+    "t": "Pertama, pisahkan dua kata yang sering dianggap sama: omzet dan untung."
+   },
+   {
+    "t": "Omzet adalah semua uang yang masuk ke laci dari pembeli."
+   },
+   {
+    "t": "Untung adalah sisa uang setelah kamu mengganti modal barang yang terjual dan membayar pengeluaran toko."
+   },
+   {
+    "t": "Laci yang penuh membuat pemilik merasa kaya, padahal sebagian besar isinya harus kembali ke pemasok."
+   },
+   {
+    "t": "Apalagi banyak barang sembako dijual dengan selisih yang kecil."
+   }
+  ]
+ },
+ {
+  "id": "modal",
+  "lines": [
+   {
+    "t": "Mari pakai contoh. Anggap omzet harian toko dua juta rupiah."
+   },
+   {
+    "t": "Misalnya modal barang yang terjual hari itu 1,76 juta rupiah."
+   },
+   {
+    "t": "Sisanya, 240 ribu rupiah, adalah untung kotor per hari."
+   },
+   {
+    "t": "Kalikan 30 hari, untung kotor sebulan hanya 7,2 juta rupiah, padahal omzetnya 60 juta."
+   },
+   {
+    "t": "Jadi yang benar-benar tersisa dari omzet hanya sekitar 12 persen."
+   }
+  ]
+ },
+ {
+  "id": "tetap",
+  "lines": [
+   {
+    "t": "Dari untung kotor itu, masih ada pengeluaran yang jalan terus tiap bulan."
+   },
+   {
+    "t": "Misalnya listrik dan kulkas 600 ribu rupiah, kantong plastik dan nota 300 ribu rupiah, serta gaji satu penjaga toko 1,5 juta rupiah."
+   },
+   {
+    "t": "Totalnya 2,4 juta rupiah, sehingga untung bersih tinggal 4,8 juta rupiah per bulan."
+   },
+   {
+    "t": "Angka 4,8 juta inilah yang aman diambil pemilik. Bukan isi laci."
+   }
+  ]
+ },
+ {
+  "id": "laci",
+  "lines": [
+   {
+    "t": "Sekarang bagian yang paling sering terjadi."
+   },
+   {
+    "t": "Pemilik mengambil uang dari laci kapan saja: untuk jajan anak, bensin, rokok, atau makan siang."
+   },
+   {
+    "t": "Misalnya rata-rata 250 ribu rupiah per hari, berarti 7,5 juta rupiah dalam sebulan."
+   },
+   {
+    "t": "Padahal untung bersih toko cuma 4,8 juta rupiah."
+   },
+   {
+    "t": "Tidak ada yang mencatat, jadi tidak ada yang sadar."
+   }
+  ]
+ },
+ {
+  "id": "selisih",
+  "lines": [
+   {
+    "t": "Selisihnya 2,7 juta rupiah tiap bulan, dan uang itu diambil dari modal barang."
+   },
+   {
+    "t": "Dalam empat bulan, hilang 10,8 juta rupiah dari uang belanja stok."
+   },
+   {
+    "t": "Pelan-pelan rak makin kosong, barang laris sering habis, dan pembeli pindah ke toko sebelah."
+   },
+   {
+    "t": "Tokonya tetap terlihat ramai, tetapi laci tidak lagi cukup untuk kulakan."
+   }
+  ]
+ },
+ {
+  "id": "bon",
+  "lines": [
+   {
+    "t": "Ada satu lagi yang diam-diam menahan uang, yaitu bon pelanggan."
+   },
+   {
+    "t": "Misalnya ada 20 pelanggan yang berutang masing-masing 50 ribu rupiah."
+   },
+   {
+    "t": "Totalnya satu juta rupiah, dan uang itu tidak ada di laci meski barangnya sudah keluar."
+   },
+   {
+    "t": "Barang sudah dibeli dari pemasok, tetapi uangnya belum kembali, jadi kulakan berikutnya terasa kurang."
+   },
+   {
+    "t": "Catat bon di halaman terpisah, lengkap dengan nama dan tanggal, lalu ingatkan dengan sopan tiap akhir pekan."
+   }
+  ]
+ },
+ {
+  "id": "gaji",
+  "lines": [
+   {
+    "t": "Cara paling sederhana menutup bocor adalah menggaji diri sendiri."
+   },
+   {
+    "t": "Saran ini juga ada di situs edukasi Otoritas Jasa Keuangan: ambil dana usaha secara teratur, seperti menerima gaji."
+   },
+   {
+    "t": "Dari untung bersih 4,8 juta, misalnya tetapkan gaji pemilik 3,5 juta rupiah per bulan."
+   },
+   {
+    "t": "Ambil sekali seminggu, sekitar 875 ribu rupiah, jangan tiap kali butuh."
+   },
+   {
+    "t": "Sisanya 1,3 juta rupiah ditinggal di kantong toko sebagai cadangan stok."
+   }
+  ]
+ },
+ {
+  "id": "catat",
+  "lines": [
+   {
+    "t": "Lalu, catat tiga angka tiap malam sebelum menutup toko."
+   },
+   {
+    "t": "Angka pertama adalah omzet hari itu dari hitungan uang di laci."
+   },
+   {
+    "t": "Angka kedua adalah uang yang kamu ambil, dan angka ketiga adalah bon baru serta bon yang lunas."
+   },
+   {
+    "t": "Cukup satu halaman buku tulis, tidak perlu rumus rumit."
+   },
+   {
+    "t": "Bank Indonesia juga menyediakan aplikasi pencatatan bernama Si Apik untuk pelaku UMKM, bila kamu lebih suka lewat ponsel."
+   },
+   {
+    "t": "Dalam seminggu pertama, selisih seperti tadi sudah terlihat, bukan setelah modal habis."
+   }
+  ]
+ },
+ {
+  "id": "umkm",
+  "lines": [
+   {
+    "t": "Soal ini bukan masalah satu toko saja."
+   },
+   {
+    "t": "Data pemerintah mencatat sekitar 65 juta UMKM di Indonesia, yang menyumbang sekitar 60 persen produk domestik bruto."
+   },
+   {
+    "t": "Sementara survei OJK dan BPS tahun 2025 mencatat indeks literasi keuangan nasional 66,46 persen."
+   },
+   {
+    "t": "Artinya masih ada ruang besar untuk belajar mengatur uang usaha, dan kamu sudah mulai hari ini."
+   }
+  ]
+ },
+ {
+  "id": "penutup",
+  "lines": [
+   {
+    "t": "Jadi, kenapa toko kelontong yang ramai bisa tetap kurang uang di laci?"
+   },
+   {
+    "t": "Karena omzet dianggap untung, uang pribadi ikut keluar dari laci, dan bon menahan uang yang seharusnya berputar."
+   },
+   {
+    "t": "Hitung untung bersih, tetapkan gaji pemilik, dan catat tiga angka tiap malam."
+   },
+   {
+    "t": "Dengan begitu, toko yang ramai benar-benar menghasilkan, bukan sekadar sibuk."
+   },
+   {
+    "t": "Buku kas satu halaman dan kalkulator HPP gratis ada di deskripsi, tinggal salin."
+   },
+   {
+    "t": "Kalau video ini berguna, langganan Buku Kas Juragan, lalu lanjut ke video soal cara menghitung HPP tiap barang."
+   }
+  ]
+ }
+]

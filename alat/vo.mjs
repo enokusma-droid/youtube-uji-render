@@ -8,7 +8,7 @@ import { execFile } from "node:child_process";
 const [, , kode, par = "4"] = process.argv;
 if (!kode) { console.error("pakai: node alat/vo.mjs <kode> [paralel]"); process.exit(1); }
 const P = path.resolve("proyek", kode);
-const TTS = path.resolve("../alat/vo/tts.mjs"); // dijalankan dari E:\youtube-proyekender-wb
+const TTS = path.resolve("../alat/vo/tts.mjs"); // dijalankan dari folder render-wb
 const slug = fs.readFileSync(path.join(P, "kanal.txt"), "utf8").trim();
 const vo = JSON.parse(fs.readFileSync(path.resolve("../channel", slug, "brand.json"), "utf8")).vo;
 if (!vo?.voice) { console.error(`brand.json ${slug} belum punya vo.voice`); process.exit(1); }

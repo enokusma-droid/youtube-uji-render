@@ -377,7 +377,7 @@ var G = {}, D = {};
     for (let j = 0; j < 4; j++) for (let i = 0; i < 3; i++) d += rect(x + w * (.12 + i * .28), y - h + h * (.08 + j * .19), w * .2, h * .11, .6);
     return d + rect(cx - w * .12, y - h * .14, w * .24, h * .14, .8); };
   G.koin = (cx, cy, r) => icon.coin(cx, cy, r);
-  D.koin = (cx, cy, r, at, dur = .4) => { P(icon.coin(cx, cy, r), at, dur * .7, { c: GOLD, fill: GOLD, fillOp: .4 }); T('Rp', cx, cy + r * .28, r * .8, at + dur * .7, dur * .3, { c: INK }); };
+  D.koin = (cx, cy, r, at, dur = .4, o = {}) => { P(icon.coin(cx, cy, r), at, dur * .7, { c: GOLD, fill: GOLD, fillOp: .4 }); T(o.simbol ?? 'Rp', cx, cy + r * .28, r * .8, at + dur * .7, dur * .3, { c: INK }); };
   G.tumpukanKoin = (cx, y, n, r) => { let d = ''; for (let i = 0; i < n; i++) d += circ(cx, y - i * r * .32, r, r * .3, 0, 365, .01); return d; };
   G.uang = (cx, cy, w) => { const h = w * .48; return rect(cx - w / 2, cy - h / 2, w, h, 1.2) + circ(cx, cy, h * .28) + circ(cx - w * .36, cy, h * .06) + circ(cx + w * .36, cy, h * .06); };
   G.kantongUang = (cx, cy, s = 1) => pb(tf(cx, cy, s)).m(-30, -70).q(-90, -20, -80, 40).q(-70, 90, 0, 90).q(70, 90, 80, 40).q(90, -20, 30, -70).z().s() +
@@ -404,4 +404,11 @@ var G = {}, D = {};
   D.lingkari = (cx, cy, rx, ry, at, dur = .35, c) => P(circ(cx, cy, rx, ry, -120, 390, .04), at, dur, { c: c || GREEN, w: 6 });
   // garis bawah bergelombang di bawah bbox teks
   D.garisBawah = (b, at, dur = .3, c) => P(wave(b.x, b.x + b.width, b.y + b.height + 6, 5, 70), at, dur, { c: c || GOLD, w: 7 });
+  // ================= TAMBAHAN (N1-001) =================
+  // mobil sederhana tampak samping: cx, cy = pusat, w = lebar
+  G.mobil = (cx, cy, w) => rect(cx - w / 2, cy - w * .08, w, w * .24, 1.5) + rect(cx - w * .27, cy - w * .27, w * .5, w * .2, 1.5) +
+    circ(cx - w * .27, cy + w * .18, w * .075) + circ(cx + w * .27, cy + w * .18, w * .075);
+  // piring + garpu + pisau: cx, cy = pusat piring, r = jari-jari piring
+  G.piring = (cx, cy, r) => circ(cx, cy, r) + circ(cx, cy, r * .62) +
+    line(cx - r * 1.55, cy - r * .7, cx - r * 1.55, cy + r * .8, 1) + line(cx + r * 1.55, cy - r * .7, cx + r * 1.55, cy + r * .8, 1);
 })();
