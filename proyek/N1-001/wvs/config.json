@@ -3,7 +3,7 @@
   "width": 1920,
   "height": 1080,
   "fps": 30,
-  "captions": true,
+  "captions": false,
   "captionSize": 38,
   "pen": true,
   "pan": 0.45,
