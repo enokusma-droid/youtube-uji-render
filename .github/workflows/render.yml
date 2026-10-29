@@ -2,6 +2,7 @@
 # Jalankan: gh workflow run render.yml -f kode="seo-001" -f tool="semua"
 # Hasil: G3 konten/youtube/<kode>/<tool>.mp4 + artifact (mp4 + frame QC, 7 hari).
 name: render-whiteboard
+run-name: render ${{ inputs.kode }} ${{ inputs.tool }}
 on:
   workflow_dispatch:
     inputs:

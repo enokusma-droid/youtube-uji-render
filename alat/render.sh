@@ -6,12 +6,13 @@ KODE="$1"; TOOL="${2:-semua}"
 R=enokusma-droid/youtube-uji-render
 export GH_TOKEN="$(gh auth token -u enokusma-droid)"  # per proses, JANGAN gh auth switch
 cd "$(dirname "$0")/.."
-git add -A
+git add -A "proyek/$KODE" .github alat pustaka
 git -c user.name="faceless-ci" -c user.email="ci@nusawebsite.com" commit -qm "proyek $KODE" || true
 git push -q origin HEAD
 gh workflow run render.yml -R $R -f kode="$KODE" -f tool="$TOOL"
-sleep 8
-ID=$(gh run list -R $R -L 1 --json databaseId -q '.[0].databaseId')
+# cari run milik kode ini (run-name "render <kode> <tool>"), aman bila beberapa render jalan bersamaan
+ID=""; for i in $(seq 1 30); do sleep 5; ID=$(gh run list -R $R -w render.yml -L 20 --json databaseId,displayTitle,status -q "[.[]|select(.displayTitle==\"render $KODE $TOOL\" and .status!=\"completed\")][0].databaseId // empty"); [ -n "$ID" ] && break; done
+[ -n "$ID" ] || { echo "run tidak ditemukan"; exit 1; }
 echo "run $ID: https://github.com/$R/actions/runs/$ID"
 while [ "$(gh run view $ID -R $R --json status -q .status)" != completed ]; do sleep 20; done
 gh run view $ID -R $R --json conclusion,jobs -q '.conclusion+" | "+([.jobs[]|.steps[]|select(.name|test("whiteboard|handanim|Simpan"))|select(.conclusion!="skipped")|"\(.name)=\(.conclusion) \(.startedAt[11:19])-\(.completedAt[11:19])"]|join("; "))'
