@@ -1,0 +1,1 @@
+Its example: $1,000 at 5 percent becomes $1,050 after one year, and $1,102.50 after two.
