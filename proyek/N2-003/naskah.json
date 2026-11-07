@@ -1,0 +1,159 @@
+[
+ {
+  "id": "buka",
+  "judul": "Kas tinggal 500 ribu?",
+  "lines": [
+   "Sepuluh juta rupiah masuk ke catatan penjualan bulan ini, tetapi saldo kas tinggal lima ratus ribu.",
+   "Pemiliknya bingung, karena tokonya ramai dan buku penjualannya penuh.",
+   "Ke mana uangnya pergi?",
+   "Jawabannya ada di tiga tempat yang tidak terlihat dari angka omzet.",
+   "Kita telusuri satu per satu dengan contoh angka, lalu kamu bisa memeriksa usahamu sendiri."
+  ]
+ },
+ {
+  "id": "beda",
+  "judul": "Untung bukan kas",
+  "lines": [
+   "Mari mulai dari satu hal yang sering tertukar: untung dan kas.",
+   "Untung adalah hasil hitungan di atas kertas, yaitu penjualan dikurangi modal barang dan biaya.",
+   "Kas adalah uang yang benar-benar ada di tanganmu atau di rekening hari ini.",
+   "Keduanya bisa berbeda jauh, dan yang bisa dipakai membayar gaji dan kulakan hanya kas.",
+   "Usaha yang untung di kertas tetap bisa berhenti kalau kasnya habis."
+  ]
+ },
+ {
+  "id": "contoh",
+  "judul": "Contoh: toko pakaian",
+  "lines": [
+   "Anggap sebuah toko pakaian mencatat penjualan sepuluh juta rupiah selama sebulan.",
+   "Modal pakaian yang terjual empat juta rupiah, dan biaya rutin seperti sewa, listrik, dan gaji dua juta rupiah.",
+   "Jadi di buku, untung bulan ini empat juta rupiah.",
+   "Misalnya kas di awal bulan dua juta rupiah.",
+   "Pemilik berharap kas akhir bulan sekitar enam juta rupiah.",
+   "Nyatanya, saldo kas hanya lima ratus ribu rupiah."
+  ]
+ },
+ {
+  "id": "selisih",
+  "judul": "Selisih 5,5 juta",
+  "lines": [
+   "Selisihnya lima setengah juta rupiah, dan uang sebanyak itu tidak hilang.",
+   "Uang itu berpindah bentuk, dan bentuk barunya tidak bisa dipakai membayar tagihan.",
+   "Ada tiga perpindahan, dan kita bahas berurutan."
+  ]
+ },
+ {
+  "id": "tagihan",
+  "judul": "1. Tagihan belum dibayar",
+  "lines": [
+   "Pertama, tiga juta rupiah dari penjualan itu berupa pesanan seragam yang baru dibayar bulan depan.",
+   "Di buku penjualan angkanya sudah tertulis, tetapi di kas uangnya belum masuk.",
+   "Sementara itu, sewa dan gaji tetap jatuh tempo bulan ini.",
+   "Jadi uang tunai yang masuk bukan sepuluh juta, melainkan hanya tujuh juta rupiah.",
+   "Semakin banyak penjualan bertempo, semakin lebar jarak antara omzet dan kas."
+  ]
+ },
+ {
+  "id": "stok",
+  "judul": "2. Stok kebanyakan",
+  "lines": [
+   "Kedua, pemilik mendapat diskon kalau kulakan dalam jumlah besar, sehingga ia belanja pakaian lima setengah juta rupiah.",
+   "Padahal pakaian yang terjual bulan itu hanya bernilai empat juta rupiah.",
+   "Selisih satu setengah juta rupiah sekarang tergantung di rak sebagai pakaian.",
+   "Uangnya tidak hilang, tetapi baru kembali menjadi uang kalau pakaian itu laku.",
+   "Stok yang lambat laku adalah uang yang tertidur."
+  ]
+ },
+ {
+  "id": "etalase",
+  "judul": "3. Peralatan baru",
+  "lines": [
+   "Ketiga, pemilik membeli etalase dan gantungan baru seharga satu juta rupiah.",
+   "Pembelian peralatan mengeluarkan kas hari ini, padahal manfaatnya dipakai bertahun-tahun.",
+   "Karena itu ia tidak langsung mengurangi untung bulanan, tetapi kasnya langsung berkurang.",
+   "Kalau kamu hanya melihat untung, pengeluaran seperti ini tidak terlihat.",
+   "Kalau kamu melihat kas, bekasnya langsung ketahuan."
+  ]
+ },
+ {
+  "id": "jembatan",
+  "judul": "Dari untung ke kas",
+  "lines": [
+   "Sekarang susun semuanya jadi satu jembatan, dari untung ke perubahan kas.",
+   "Mulai dari untung empat juta rupiah.",
+   "Kurangi tagihan yang belum dibayar tiga juta, sisanya satu juta.",
+   "Kurangi stok berlebih satu setengah juta, jadi minus lima ratus ribu.",
+   "Kurangi etalase satu juta, hasilnya minus satu setengah juta rupiah.",
+   "Itulah penurunan kas dari dua juta menjadi lima ratus ribu, walaupun bukunya untung."
+  ]
+ },
+ {
+  "id": "data",
+  "judul": "Banyak usaha belum mencatat",
+  "lines": [
+   "Masalah ini bukan hanya milik satu toko.",
+   "Pada 11 Agustus 2026, Otoritas Jasa Keuangan menyebut hanya 3,51 persen UMKM yang punya laporan keuangan.",
+   "Artikel Direktorat Jenderal Perbendaharaan menulis bahwa sebagian pelaku usaha sudah mencatat uang masuk dan keluar, tetapi sebagian lain belum mencatat sama sekali.",
+   "Sementara survei Badan Pusat Statistik 2025 mencatat sekitar 61 persen industri mikro dan kecil mengalami kesulitan usaha.",
+   "Dari kelompok itu, hampir 70 persen menyebut permodalan sebagai masalah utamanya.",
+   "Mengelola kas dengan rapi membantu modal yang ada bekerja lebih lama."
+  ]
+ },
+ {
+  "id": "modal",
+  "judul": "Modal sendiri",
+  "lines": [
+   "BPS juga mencatat lebih dari 91 persen usaha mikro dan kecil memakai modal yang sepenuhnya milik sendiri.",
+   "Artinya, kalau kas bocor, tidak ada cadangan lain yang menutupnya.",
+   "Tempat usaha dan peralatan di banyak usaha juga masih menyatu dengan aset rumah tangga pemilik.",
+   "Maka satu salah urus kas di usaha bisa terasa sampai ke dapur rumah."
+  ]
+ },
+ {
+  "id": "mingguan",
+  "judul": "Cara 1: tabel kas mingguan",
+  "lines": [
+   "Cara pertama untuk mencegahnya adalah membuat tabel kas mingguan.",
+   "Tulis empat kolom: saldo awal, uang masuk, uang keluar, dan saldo akhir.",
+   "Saldo akhir minggu ini menjadi saldo awal minggu depan.",
+   "Isi uang masuk hanya ketika uangnya benar-benar diterima, bukan ketika pesanan dicatat.",
+   "Isi uang keluar saat dibayar, termasuk kulakan, peralatan, dan tagihan yang jatuh tempo.",
+   "Dengan tabel ini, kamu melihat minggu mana yang kasnya tipis sebelum kejadian."
+  ]
+ },
+ {
+  "id": "cadangan",
+  "judul": "Cara 2 dan 3",
+  "lines": [
+   "Cara kedua adalah menyimpan kas cadangan, minimal biaya rutin untuk dua minggu.",
+   "Dalam contoh tadi, biaya rutin dua juta sebulan, jadi cadangannya sekitar satu juta rupiah.",
+   "Dengan kas lima ratus ribu, toko ini sudah berada di bawah batas itu.",
+   "Cara ketiga, sebelum belanja besar, ajukan tiga pertanyaan.",
+   "Kapan barang ini terjual, berapa kas yang tersisa setelah membayar, dan apa yang jatuh tempo minggu depan?",
+   "Kalau jawabannya belum jelas, tunda atau kurangi jumlah belanjanya."
+  ]
+ },
+ {
+  "id": "alat",
+  "judul": "Alat pencatatan",
+  "lines": [
+   "Alatnya tidak perlu rumit.",
+   "Artikel Direktorat Jenderal Kekayaan Negara tahun 2023 menyebut buku kas untuk uang masuk dan keluar, serta buku persediaan untuk barang.",
+   "Untuk usaha kecil dengan transaksi sedikit, pencatatan masukan tunggal yang mirip rekening koran dinilai cocok.",
+   "Bank Indonesia juga menyediakan aplikasi SIAPIK yang bisa menghasilkan laporan arus kas.",
+   "Pilih satu yang sanggup kamu isi tiap minggu, karena catatan yang rajin lebih berguna daripada yang sempurna."
+  ]
+ },
+ {
+  "id": "penutup",
+  "judul": "Ringkasan",
+  "lines": [
+   "Jadi, ke mana uangnya pergi?",
+   "Ke tagihan yang belum dibayar, ke pakaian di rak, dan ke etalase baru.",
+   "Omzet sepuluh juta tidak salah, tetapi omzet bukan kas.",
+   "Pantau kas tiap minggu, simpan cadangan, dan ajukan tiga pertanyaan sebelum belanja besar.",
+   "Tabel kas mingguan siap salin ada di deskripsi.",
+   "Kalau video ini berguna, langganan Buku Kas Juragan, lalu lanjut ke video tentang cara menghitung HPP."
+  ]
+ }
+]

@@ -1,0 +1,1 @@
+Tulis empat kolom: saldo awal, uang masuk, uang keluar, dan saldo akhir.
