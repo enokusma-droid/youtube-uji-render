@@ -1,0 +1,1 @@
+Check three numbers: what came in, what went out, and what is left in savings.

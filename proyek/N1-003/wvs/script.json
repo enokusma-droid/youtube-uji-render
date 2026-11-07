@@ -1,0 +1,266 @@
+[
+ {
+  "id": "hook",
+  "lines": [
+   {
+    "t": "Are you actually bad with money, or did nobody ever teach you how it works?"
+   },
+   {
+    "t": "Most of us never sat through a class on interest, inflation, or emergency funds."
+   },
+   {
+    "t": "Then we blamed ourselves for every mistake that followed."
+   },
+   {
+    "t": "In six minutes, I will show you what the data says, and three small habits to start with."
+   }
+  ]
+ },
+ {
+  "id": "quiz",
+  "lines": [
+   {
+    "t": "Let's begin with a test."
+   },
+   {
+    "t": "Every few years, the FINRA Foundation measures how well American adults understand basic money ideas."
+   },
+   {
+    "t": "In its 2024 survey, respondents answered seven financial knowledge questions."
+   },
+   {
+    "t": "Only 27 percent got at least five of the seven right."
+   },
+   {
+    "t": "That is nearly the same as the 28 percent in 2021."
+   },
+   {
+    "t": "So roughly three in four adults missed three or more of the seven questions."
+   }
+  ]
+ },
+ {
+  "id": "inflasi",
+  "lines": [
+   {
+    "t": "There is one bright spot in the results."
+   },
+   {
+    "t": "One question asked about inflation, and 58 percent of respondents answered it correctly, up from 53 percent in 2021."
+   },
+   {
+    "t": "Among adults aged 18 to 34, that score rose from 34 percent to 44 percent."
+   },
+   {
+    "t": "That hints that people can learn these ideas when they get the chance."
+   },
+   {
+    "t": "Knowledge is not fixed, and that is good news."
+   }
+  ]
+ },
+ {
+  "id": "sekolah",
+  "lines": [
+   {
+    "t": "Now ask where most people were supposed to learn this."
+   },
+   {
+    "t": "In February 2024, the Council for Economic Education reported that 35 states require a personal finance course to graduate high school."
+   },
+   {
+    "t": "That is up by 12 states since 2022."
+   },
+   {
+    "t": "Only 15 states require a full semester-long course, which the council calls its highest standard."
+   },
+   {
+    "t": "These rules are growing quickly, so plenty of adults finished school before they existed."
+   }
+  ]
+ },
+ {
+  "id": "sejarah",
+  "lines": [
+   {
+    "t": "A 2026 national report card on personal finance education puts the speed of change in perspective."
+   },
+   {
+    "t": "In 2013, only three states earned an A grade, covering just 5 percent of students."
+   },
+   {
+    "t": "By 2031, the report projects that 29 states will require a standalone personal finance course."
+   },
+   {
+    "t": "It also projects that 73 percent of public high school students graduating in 2031 will take a substantive course."
+   },
+   {
+    "t": "Progress is real, but it is recent."
+   }
+  ]
+ },
+ {
+  "id": "suara",
+  "lines": [
+   {
+    "t": "Here is what people say about it."
+   },
+   {
+    "t": "In a 2025 poll cited in that report card, 83 percent of U.S. adults said their state should require a semester-long or year-long course."
+   },
+   {
+    "t": "And 82 percent of respondents who attended high school said they wish they had been required to take a personal finance class."
+   },
+   {
+    "t": "Those answers do not sound like people who feel lazy or careless."
+   },
+   {
+    "t": "They point to a gap in what people were taught."
+   }
+  ]
+ },
+ {
+  "id": "jurang",
+  "lines": [
+   {
+    "t": "A gap in knowledge can show up in everyday life."
+   },
+   {
+    "t": "In the FINRA Foundation's 2024 study, 46 percent of adults said they had set aside three months of living expenses."
+   },
+   {
+    "t": "That is down from 53 percent in 2021."
+   },
+   {
+    "t": "The study also found that 53 percent always pay their credit cards in full each month, down six percentage points from 2021."
+   },
+   {
+    "t": "Many forces sit behind those numbers, including higher costs, so knowledge is only part of the story."
+   },
+   {
+    "t": "But it is a part you can change."
+   }
+  ]
+ },
+ {
+  "id": "keterampilan",
+  "lines": [
+   {
+    "t": "So let's change the question."
+   },
+   {
+    "t": "Being bad with money sounds like a personality trait, as if you were born without the talent."
+   },
+   {
+    "t": "It is much closer to a skill, like driving or cooking."
+   },
+   {
+    "t": "Nobody is born knowing how to read a lease or compare loan offers."
+   },
+   {
+    "t": "People learn those skills from teachers, practice, and mistakes."
+   },
+   {
+    "t": "If you never had the teacher, the mistakes are not proof that something is wrong with you."
+   },
+   {
+    "t": "That is not an excuse to stop. It is a reason to start."
+   }
+  ]
+ },
+ {
+  "id": "satu",
+  "lines": [
+   {
+    "t": "Habit one: learn one idea at a time."
+   },
+   {
+    "t": "Pick a single concept this week, such as compound interest, inflation, or what an emergency fund is for."
+   },
+   {
+    "t": "Spend fifteen minutes on a trustworthy source, like the Consumer Financial Protection Bureau website."
+   },
+   {
+    "t": "Then write one sentence in your own words explaining it."
+   },
+   {
+    "t": "If you can explain it simply, you probably understand it."
+   },
+   {
+    "t": "Do that for a few months, and money questions stop feeling like tricks."
+   }
+  ]
+ },
+ {
+  "id": "dua",
+  "lines": [
+   {
+    "t": "Habit two: let a machine do the remembering."
+   },
+   {
+    "t": "Willpower is unreliable, especially at the end of a long week."
+   },
+   {
+    "t": "Set up an automatic transfer to savings on payday, even a small one."
+   },
+   {
+    "t": "For example, if you are paid every two weeks and move $25 each time, that adds up to $650 in a year."
+   },
+   {
+    "t": "That is an illustration, and any amount you can keep up is the right amount."
+   },
+   {
+    "t": "The goal is to build the habit before you build the balance."
+   }
+  ]
+ },
+ {
+  "id": "tiga",
+  "lines": [
+   {
+    "t": "Habit three: look at your money once a month."
+   },
+   {
+    "t": "Set a calendar reminder and spend ten minutes, no more."
+   },
+   {
+    "t": "Check three numbers: what came in, what went out, and what is left in savings."
+   },
+   {
+    "t": "You are not judging yourself, you are collecting information."
+   },
+   {
+    "t": "Avoiding the numbers feels safer, but that is how small problems grow quietly."
+   },
+   {
+    "t": "Looking is the habit that makes the other two habits work."
+   }
+  ]
+ },
+ {
+  "id": "penutup",
+  "lines": [
+   {
+    "t": "So, are you actually bad with money?"
+   },
+   {
+    "t": "The data says most adults missed several basic questions, and school rules are only now catching up."
+   },
+   {
+    "t": "That points to a teaching gap, not to a flaw in you."
+   },
+   {
+    "t": "Nobody was born knowing how money works, and nobody teaches it by accident."
+   },
+   {
+    "t": "So start with one idea, one automatic transfer, and one monthly check."
+   },
+   {
+    "t": "Real results vary, and this video is for education only, not personal financial advice. Talk to a licensed professional before big decisions."
+   },
+   {
+    "t": "If this helped, follow the channel, and watch the next video about the money beliefs you picked up as a kid."
+   }
+  ]
+ }
+]
