@@ -1,0 +1,1 @@
+Ketiga, buat daftar umur piutang: siapa berutang, berapa, dan sudah berapa hari.

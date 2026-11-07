@@ -1,0 +1,1 @@
+Kedua, hitung perputaran stok per kelompok barang, dan tandai yang belum bergerak dua bulan.

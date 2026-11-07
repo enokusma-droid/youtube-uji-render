@@ -1,0 +1,136 @@
+[
+  {
+    "id": "buka",
+    "judul": "Sepi tapi bertahan",
+    "lines": [
+      "Bayangkan toko bangunan di pinggir jalan yang hanya didatangi sekitar lima belas pembeli sehari.",
+      "Tidak ada antrean di kasir, dan rak-raknya tampak sama dari tahun ke tahun.",
+      "Namun pemiliknya tetap membuka pintu besi itu setiap pagi, bertahun-tahun.",
+      "Kenapa toko bangunan sepi tapi tidak pernah tutup?",
+      "Jawabannya ada di empat hal: nilai belanja, margin, perputaran stok, dan satu jebakan yang bisa merobohkannya.",
+      "Kita hitung satu per satu dengan angka permisalan, lalu kamu bisa memeriksa usahamu sendiri."
+    ]
+  },
+  {
+    "id": "nilai",
+    "judul": "Sepi bukan berarti kecil",
+    "lines": [
+      "Mulai dari nilai belanja, karena di sinilah toko bangunan berbeda dari warung.",
+      "Anggap warung kelontong dilewati seratus dua puluh pembeli sehari, dan masing-masing belanja dua puluh lima ribu rupiah.",
+      "Hasilnya tiga juta rupiah per hari.",
+      "Sekarang anggap toko bangunan hanya dikunjungi lima belas pembeli, tetapi tiap orang membawa pulang semen, pasir, dan cat senilai delapan ratus ribu rupiah.",
+      "Hasilnya dua belas juta rupiah per hari, empat kali lipat warung yang terlihat jauh lebih ramai.",
+      "Jadi sepi di mata tidak sama dengan kecil di buku."
+    ]
+  },
+  {
+    "id": "semen",
+    "judul": "Kebutuhan terus mengalir",
+    "lines": [
+      "Barang yang dijual toko bangunan juga bukan barang musiman.",
+      "Asosiasi Perusahaan Semen Seluruh Indonesia mencatat penjualan semen domestik Januari sampai Juni 2026 sekitar 30,71 juta ton.",
+      "Angka itu naik 10,5 persen dari 27,78 juta ton pada periode yang sama tahun lalu.",
+      "Semen Indonesia menyebut penjualan ritel menyumbang 70 persen dari pendapatannya pada semester pertama 2026.",
+      "Meski begitu, ketua asosiasi mengingatkan bahwa pertumbuhan ini belum menunjukkan pemulihan permintaan yang kuat secara struktural."
+    ]
+  },
+  {
+    "id": "margin",
+    "judul": "Margin tipis, volume besar",
+    "lines": [
+      "Berikutnya margin, dan di sini ceritanya terbalik dari bayangan banyak orang.",
+      "Sebuah artikel Accounting Plus tahun 2026 menulis bahwa margin toko bangunan hanya sekitar 5 sampai 10 persen untuk material pokok seperti semen dan besi.",
+      "Misalnya margin rata-rata tujuh persen dari omzet dua belas juta rupiah, maka keuntungan kotor harian sekitar delapan ratus empat puluh ribu rupiah.",
+      "Barang kecil seperti baut, lem, dan kuas biasanya bisa dijual dengan margin lebih tebal, misalnya dua puluh persen."
+    ]
+  },
+  {
+    "id": "putar",
+    "judul": "Stok harus berputar",
+    "lines": [
+      "Margin tipis hanya bisa hidup kalau stok berputar teratur.",
+      "Ukurannya disebut perputaran persediaan, yaitu harga pokok penjualan dibagi nilai persediaan rata-rata.",
+      "Situs Kledo menulis bahwa untuk sebagian besar bisnis ritel, rasio dua sampai empat dianggap ideal, dan rasio satu atau kurang menandakan stok berlebih.",
+      "Misalnya harga pokok setahun tiga ratus juta rupiah, sedangkan rata-rata stok di rak seratus juta rupiah.",
+      "Perputarannya tiga kali setahun, atau stok rata-rata habis dan diganti setiap sekitar seratus dua puluh hari."
+    ]
+  },
+  {
+    "id": "tahan",
+    "judul": "Barang yang tidak basi",
+    "lines": [
+      "Stok toko bangunan punya satu keuntungan: sebagian besar tidak basi.",
+      "Paku, pipa, keramik, dan besi bisa menunggu pembeli berbulan-bulan tanpa busuk seperti sayur.",
+      "Tetapi barang tertentu tetap punya batas, misalnya semen yang menggumpal kalau lembap, dan cat yang mengering.",
+      "Misalnya satu zak semen seharga tujuh puluh ribu rupiah untung lima ribu, maka satu zak rusak menghapus untung empat belas zak."
+    ]
+  },
+  {
+    "id": "langganan",
+    "judul": "Pelanggan yang kembali",
+    "lines": [
+      "Hal lain yang menopang toko sepi adalah pelanggan yang kembali.",
+      "Satu tukang atau kontraktor langganan bisa menangani beberapa proyek dalam sebulan, dan kebutuhannya sering dibeli dari toko yang sama.",
+      "Misalnya lima tukang langganan, masing-masing belanja sekitar empat juta rupiah per bulan.",
+      "Mereka kembali karena sudah kenal harga, tahu barang selalu ada, dan toko mau mengantar.",
+      "Tetapi pelanggan seperti ini hampir selalu meminta satu hal: boleh dibayar nanti."
+    ]
+  },
+  {
+    "id": "piutang",
+    "judul": "Jebakan: bayar nanti",
+    "lines": [
+      "Accounting Plus menulis bahwa jika piutang tidak tercatat, arus kas bisa tercekik meskipun buku penjualan menunjukkan angka besar.",
+      "Misalnya toko tadi buka dua puluh enam hari sebulan dengan omzet dua belas juta rupiah per hari.",
+      "Omzet sebulan tiga ratus dua belas juta rupiah, dan empat puluh persennya dibayar tempo tiga puluh hari.",
+      "Berarti sekitar seratus dua puluh lima juta rupiah tertahan di tangan pelanggan.",
+      "Sebagai pembanding, keuntungan kotor sebulan pada margin tujuh persen hanya sekitar dua puluh dua juta rupiah.",
+      "Satu pelanggan besar yang telat bayar bisa menghapus untung berbulan-bulan."
+    ]
+  },
+  {
+    "id": "modal",
+    "judul": "Modal sendiri",
+    "lines": [
+      "Masalahnya, stok dan piutang itu biasanya dibiayai oleh uang pemilik sendiri.",
+      "Survei Industri Mikro dan Kecil Badan Pusat Statistik 2025 mencatat 91,41 persen pelaku memakai modal yang sepenuhnya milik sendiri.",
+      "Data itu untuk industri mikro dan kecil, bukan khusus toko bangunan, tetapi gambarannya relevan sebagai pengingat.",
+      "Di antara usaha yang mengalami kesulitan, 69,85 persen menyebut permodalan sebagai kendala."
+    ]
+  },
+  {
+    "id": "ukur",
+    "judul": "Tiga angka tiap minggu",
+    "lines": [
+      "Cara memeriksanya sederhana, dan cukup tiga angka tiap minggu.",
+      "Pertama, pisahkan catatan barang pokok dan barang kecil, lalu lihat margin masing-masing.",
+      "Kedua, hitung perputaran stok per kelompok barang, dan tandai yang belum bergerak dua bulan.",
+      "Ketiga, buat daftar umur piutang: siapa berutang, berapa, dan sudah berapa hari.",
+      "Tulis juga saldo kas mingguan, karena uang tunai yang bisa dipakai kulakan hanya yang benar-benar ada."
+    ]
+  },
+  {
+    "id": "aturan",
+    "judul": "Aturan main tempo",
+    "lines": [
+      "Setelah angkanya terlihat, atur aturan mainnya.",
+      "Tetapkan batas tempo yang jelas, misalnya empat belas hari, dan tulis di nota.",
+      "Minta uang muka untuk pesanan besar, supaya toko tidak menalangi seluruh barang.",
+      "Tetapkan batas total utang per pelanggan, dan hentikan tempo baru sebelum yang lama lunas.",
+      "Jangan menambah stok barang yang sudah dua bulan tidak bergerak."
+    ]
+  },
+  {
+    "id": "jawab",
+    "judul": "Jawabannya",
+    "lines": [
+      "Jadi, kenapa toko bangunan sepi tapi tidak pernah tutup?",
+      "Karena sepinya hanya di pintu, sedangkan nilai belanja per pembeli besar.",
+      "Margin tipis dikali volume tetap menghasilkan, selama stok berputar dan pelanggan setia kembali.",
+      "Toko bisa goyah bukan karena sepi, melainkan karena uangnya tertahan di piutang dan stok yang tidak bergerak.",
+      "Karena itu pantau kas tiap minggu, catat umur piutang, dan hitung perputaran stok.",
+      "Tabel kas mingguan siap salin ada di deskripsi.",
+      "Kalau video ini berguna, langganan Buku Kas Juragan, lalu lanjut ke video tentang cara menghitung HPP."
+    ]
+  }
+]
