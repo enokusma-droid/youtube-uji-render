@@ -1,0 +1,111 @@
+66 kalimat perlu TTS
+ok pembuka_0
+ok pembuka_1
+ok pembuka_2
+ok pembuka_3
+ok hpp_0
+ok pembuka_4
+ok hpp_1
+ok hpp_2
+ok hpp_4
+ok hpp_3
+ok piring_0
+ok piring_1
+ok piring_2
+ok piring_3
+ok piring_4
+ok kalikan_0
+ok kalikan_1
+ok kalikan_2
+ok kalikan_3
+ok kalikan_4
+ok porsi_0
+ok porsi_1
+ok porsi_2
+ok porsi_3
+ok porsi_4
+ok sisa_0
+ok sisa_1
+ok sisa_2
+ok sisa_3
+ok sisa_4
+ok cabai_0
+ok cabai_1
+ok cabai_2
+ok cabai_3
+ok cabai_4
+ok kecil_0
+ok kecil_1
+ok kecil_2
+ok kecil_3
+ok harga_0
+ok harga_1
+ok harga_2
+ok harga_3
+ok harga_4
+ok harga_5
+ok menu_0
+ok menu_1
+ok menu_2
+ok menu_3
+GAGAL pajak_0 (lihat .log)
+GAGAL pajak_1 (lihat .log)
+GAGAL pajak_2 (lihat .log)
+GAGAL pajak_3 (lihat .log)
+GAGAL pajak_4 (lihat .log)
+GAGAL cek_0 (lihat .log)
+GAGAL cek_1 (lihat .log)
+GAGAL cek_2 (lihat .log)
+GAGAL cek_3 (lihat .log)
+GAGAL cek_4 (lihat .log)
+GAGAL menu_4 (lihat .log)
+GAGAL penutup_0 (lihat .log)
+GAGAL penutup_2 (lihat .log)
+GAGAL penutup_1 (lihat .log)
+GAGAL penutup_3 (lihat .log)
+GAGAL penutup_5 (lihat .log)
+GAGAL penutup_4 (lihat .log)
+VO 49/66 · 17 gagal (kuota TTS? cek log tts-worker, ulangi nanti)
+run 1 exit 2
+17 kalimat perlu TTS
+GAGAL pajak_0 (lihat .log)
+GAGAL menu_4 (lihat .log)
+GAGAL pajak_1 (lihat .log)
+GAGAL pajak_2 (lihat .log)
+GAGAL pajak_3 (lihat .log)
+GAGAL pajak_4 (lihat .log)
+GAGAL cek_0 (lihat .log)
+GAGAL cek_2 (lihat .log)
+GAGAL cek_1 (lihat .log)
+GAGAL cek_3 (lihat .log)
+GAGAL cek_4 (lihat .log)
+GAGAL penutup_0 (lihat .log)
+GAGAL penutup_1 (lihat .log)
+GAGAL penutup_2 (lihat .log)
+GAGAL penutup_3 (lihat .log)
+GAGAL penutup_5 (lihat .log)
+GAGAL penutup_4 (lihat .log)
+VO 49/66 · 17 gagal (kuota TTS? cek log tts-worker, ulangi nanti)
+run 2 exit 2
+17 kalimat perlu TTS
+GAGAL pajak_0 (lihat .log)
+GAGAL menu_4 (lihat .log)
+GAGAL pajak_1 (lihat .log)
+GAGAL pajak_2 (lihat .log)
+GAGAL pajak_3 (lihat .log)
+GAGAL cek_0 (lihat .log)
+GAGAL pajak_4 (lihat .log)
+GAGAL cek_1 (lihat .log)
+GAGAL cek_2 (lihat .log)
+GAGAL cek_3 (lihat .log)
+ok cek_4
+ok penutup_0
+ok penutup_1
+ok penutup_2
+ok penutup_4
+GAGAL penutup_3 (lihat .log)
+GAGAL penutup_5 (lihat .log)
+VO 54/66 · 12 gagal (kuota TTS? cek log tts-worker, ulangi nanti)
+run 3 exit 2
+12 kalimat perlu TTS
+ok menu_4

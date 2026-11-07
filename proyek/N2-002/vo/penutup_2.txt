@@ -1,0 +1,1 @@
+Hitung modal tiap piring, standarkan porsi, cek harga bahan tiap minggu, dan catat semua biaya.

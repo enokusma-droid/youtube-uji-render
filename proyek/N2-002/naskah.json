@@ -1,0 +1,146 @@
+[
+ {
+  "id": "pembuka",
+  "judul": "Ramai tapi bangkrut?",
+  "lines": [
+   "Jam makan siang, kursi penuh, piring tidak berhenti keluar dari dapur.",
+   "Tapi akhir bulan, pemiliknya malah menjual motor untuk menutup belanja bahan.",
+   "Kenapa warung makan yang ramai bisa bangkrut?",
+   "Ada empat biang kerok, dan semuanya bisa kamu hitung sendiri hari ini.",
+   "Kita pakai contoh sepiring nasi ayam, lengkap dengan angkanya, lalu di akhir kamu bisa memeriksa warungmu sendiri."
+  ]
+ },
+ {
+  "id": "hpp",
+  "judul": "1. Harga jual asal tebak",
+  "lines": [
+   "Biang kerok pertama adalah harga jual yang ditentukan dengan menebak, bukan dengan menghitung.",
+   "Harga pokok penjualan, disingkat HPP, adalah modal barang yang benar-benar terpakai untuk menjual sesuatu.",
+   "Rumusnya, menurut sebuah artikel edukasi wirausaha: persediaan awal ditambah pembelian bersih, lalu dikurangi persediaan akhir.",
+   "Artikel itu mengingatkan, harga jual tidak boleh asal-asalan supaya bisnis terhindar dari kerugian.",
+   "Di dapur warung, artinya semua bahan satu piring harus ikut dihitung, bukan hanya ayamnya."
+  ]
+ },
+ {
+  "id": "piring",
+  "judul": "Hitung sepiring nasi ayam",
+  "lines": [
+   "Mari pakai contoh. Misalnya sepiring nasi ayam dijual 15 ribu rupiah.",
+   "Ayamnya 6 ribu, beras 1.500, sayur dan sambal 1.500, jadi bahan makanan 9 ribu rupiah, ditambah minyak dan gas 1.500.",
+   "Bahan makanan saja sudah 60 persen dari harga jual.",
+   "Sebagai pembanding, perangkat lunak akuntansi Accurate menulis bahwa sebagian besar pengelola restoran menjaga biaya makanan antara 28 dan 35 persen dari pendapatan.",
+   "Setelah minyak dan gas, modal satu piring 10.500 rupiah, sehingga sisanya cuma 4.500 rupiah untuk sewa, listrik, gaji, dan untung."
+  ]
+ },
+ {
+  "id": "kalikan",
+  "judul": "Kalikan satu bulan",
+  "lines": [
+   "Sekarang kalikan. Anggap warung ini menjual 80 piring sehari.",
+   "Omzet sehari 1,2 juta rupiah, dan sisa setelah modal piring 360 ribu rupiah.",
+   "Dalam 30 hari, sisa itu 10,8 juta rupiah, padahal omzet sebulannya 36 juta rupiah.",
+   "Dari 10,8 juta itu masih harus dibayar sewa, listrik, dan gaji pegawai. Misalnya 9 juta rupiah, sehingga tinggal 1,8 juta rupiah, dan angka itu belum memuat biaya kecil maupun gaji pemilik.",
+   "Warung tampak ramai, tetapi hitungannya sudah mepet sejak harga ditetapkan."
+  ]
+ },
+ {
+  "id": "porsi",
+  "judul": "2. Porsi dan sisa masakan",
+  "lines": [
+   "Biang kerok kedua adalah porsi yang tidak seragam.",
+   "Satu piring dapat ayam besar, piring lain dapat nasi segunung, tergantung siapa yang menyendok.",
+   "Misalnya setiap piring kelebihan nasi dan sayur senilai seribu rupiah.",
+   "Dikali 80 piring dan 30 hari, bocornya 2,4 juta rupiah sebulan.",
+   "Solusinya sederhana: tentukan satu porsi standar sekali saja, lalu pakai gayung atau cetakan yang sama setiap hari."
+  ]
+ },
+ {
+  "id": "sisa",
+  "judul": "Masakan yang terbuang",
+  "lines": [
+   "Masih di biang kerok kedua, yaitu masakan yang terbuang.",
+   "Kajian Bappenas yang dikutip Katadata mencatat sampah makanan sisa konsumsi di Indonesia antara 5 dan 19 juta ton per tahun selama 2000 sampai 2019.",
+   "Dapur warung punya versi kecilnya: nasi sisa, sayur layu, dan ayam yang tidak laku sampai malam.",
+   "Misalnya tiap hari terbuang bahan senilai 50 ribu rupiah, itu 1,5 juta rupiah sebulan.",
+   "Masak bertahap, catat sisa tiap malam, dan jual menu sisa lebih awal dengan harga promo."
+  ]
+ },
+ {
+  "id": "cabai",
+  "judul": "3. Harga bahan naik turun",
+  "lines": [
+   "Biang kerok ketiga: harga bahan naik turun, tetapi harga menu tidak pernah disesuaikan.",
+   "Panel Harga Badan Pangan Nasional, yang dilansir Antara, mencatat cabai rawit merah di tingkat konsumen Rp67.171 per kilogram pada 15 Juli 2025.",
+   "Pada 22 Agustus 2025, harganya turun menjadi Rp43.148 per kilogram, selisih lebih dari 24 ribu rupiah dalam kurang dari enam minggu.",
+   "Misalnya warung memakai 2 kilogram cabai sehari, selisih itu mengubah modal harian sampai 48 ribu rupiah.",
+   "Jadi cek harga bahan utama tiap minggu, dan hitung ulang HPP bila selisihnya sudah terasa."
+  ]
+ },
+ {
+  "id": "kecil",
+  "judul": "4. Biaya kecil yang lolos",
+  "lines": [
+   "Biang kerok keempat adalah biaya kecil yang tidak pernah masuk hitungan.",
+   "Plastik pembungkus, es batu, sabun cuci piring, parkir pasar, dan air galon, semuanya terasa kecil.",
+   "Misalnya totalnya 80 ribu rupiah sehari, atau 2,4 juta rupiah sebulan.",
+   "Catat tiap pengeluaran sekecil apa pun di satu halaman buku, lalu jumlahkan tiap minggu."
+  ]
+ },
+ {
+  "id": "harga",
+  "judul": "Perbaiki harga sepiring",
+  "lines": [
+   "Sekarang kita perbaiki harga piring tadi.",
+   "Modal 10.500 rupiah, ditambah biaya kecil 80 ribu rupiah sehari dibagi 80 piring, yaitu seribu rupiah per piring.",
+   "Lalu sewa, listrik, dan gaji 9 juta rupiah sebulan dibagi 2.400 piring, sekitar 3.750 rupiah per piring.",
+   "Total modal sebenarnya 15.250 rupiah per piring, lebih mahal dari harga jualnya.",
+   "Dengan target untung 20 persen dari harga jual, harga idealnya sekitar 19 ribu rupiah.",
+   "Naik 4 ribu rupiah terasa berat, jadi pilih langkah bertahap: kecilkan porsi nasi, cari bagian ayam yang lebih murah, atau naikkan harga sedikit demi sedikit."
+  ]
+ },
+ {
+  "id": "menu",
+  "judul": "Menu laris belum tentu untung",
+  "lines": [
+   "Ada satu jebakan yang membuat biang kerok pertama makin parah: menu terlaris belum tentu paling menguntungkan.",
+   "Misalnya nasi ayam laku 50 piring sehari dengan sisa 4.500 rupiah per piring, atau 225 ribu rupiah.",
+   "Sementara nasi telur dadar, dijual 10 ribu rupiah dengan modal 4 ribu rupiah, menyisakan 6 ribu rupiah per piring.",
+   "Kalau 30 pembeli yang tadinya memesan ayam beralih ke telur, sisa sehari naik dari 135 ribu menjadi 180 ribu rupiah.",
+   "Taruh menu hemat yang untungnya lebih besar di urutan atas papan menu."
+  ]
+ },
+ {
+  "id": "pajak",
+  "judul": "Pajak bukan momok",
+  "lines": [
+   "Sebagian pemilik warung takut membuka catatan karena khawatir soal pajak.",
+   "Direktorat Jenderal Pajak menjelaskan bahwa bagian peredaran bruto sampai 500 juta rupiah dalam satu tahun tidak dikenai PPh.",
+   "Dengan tarif PPh final sebesar 0,5 persen untuk bagian di atasnya, menurut Peraturan Pemerintah Nomor 20 Tahun 2026.",
+   "Dalam contoh kita, omzet setahun 432 juta rupiah, jadi masih di bawah batas itu.",
+   "Ketentuan usahamu bisa berbeda, jadi tanyakan ke kantor pajak, tetapi catatan yang rapi justru memudahkan semuanya."
+  ]
+ },
+ {
+  "id": "cek",
+  "judul": "Periksa warungmu malam ini",
+  "lines": [
+   "Sekarang, cara memeriksa warungmu dalam satu malam.",
+   "Pertama, hitung modal tiap menu, termasuk minyak, gas, dan plastik, lalu bagi dengan harga jualnya.",
+   "Kedua, tentukan satu porsi standar dan catat sisa masakan tiap malam.",
+   "Ketiga, bagi semua biaya bulanan dengan jumlah piring terjual, lalu tambahkan ke modal per piring.",
+   "Keempat, bandingkan dengan harga jual, dan ulangi tiap kali harga cabai atau ayam berubah."
+  ]
+ },
+ {
+  "id": "penutup",
+  "judul": "Ringkasan",
+  "lines": [
+   "Jadi, kenapa warung makan yang ramai bisa tetap bangkrut?",
+   "Karena harga ditebak, porsi dan sisa masakan bocor, harga bahan berubah, dan biaya kecil tidak pernah dihitung.",
+   "Hitung modal tiap piring, standarkan porsi, cek harga bahan tiap minggu, dan catat semua biaya.",
+   "Dengan begitu, warung yang ramai benar-benar menghasilkan, bukan sekadar sibuk menjual rugi.",
+   "Buku kas warung satu halaman dan kalkulator HPP gratis ada di deskripsi, tinggal salin.",
+   "Kalau video ini berguna, langganan Buku Kas Juragan, lalu lanjut ke video soal cara menghitung HPP tiap menu."
+  ]
+ }
+]

@@ -10,7 +10,7 @@ cd "$(dirname "$0")/.."
 until mkdir .git/render.lock 2>/dev/null; do sleep 3; done; trap 'rmdir .git/render.lock 2>/dev/null || true' EXIT
 git add -A "proyek/$KODE" .github alat pustaka
 git -c user.name="faceless-ci" -c user.email="ci@nusawebsite.com" commit -qm "proyek $KODE" || true
-git pull -q --rebase origin main || true
+git pull -q --rebase --autostash origin main || true
 git push -q origin HEAD
 rmdir .git/render.lock; trap - EXIT
 gh workflow run render.yml -R $R -f kode="$KODE" -f tool="$TOOL"

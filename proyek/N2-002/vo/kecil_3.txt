@@ -1,0 +1,1 @@
+Catat tiap pengeluaran sekecil apa pun di satu halaman buku, lalu jumlahkan tiap minggu.

@@ -1,0 +1,1 @@
+Pertama, hitung modal tiap menu, termasuk minyak, gas, dan plastik, lalu bagi dengan harga jualnya.
