@@ -1,0 +1,1 @@
+Real returns change from year to year, and they can be negative, so treat every number here as an illustration.

@@ -1,0 +1,259 @@
+[
+ {
+  "id": "hook",
+  "lines": [
+   {
+    "t": "Two hundred dollars a month, starting at age 25."
+   },
+   {
+    "t": "Over forty years, that habit could grow to more than half a million dollars."
+   },
+   {
+    "t": "Start the very same habit ten years later, and the result drops by more than half."
+   },
+   {
+    "t": "In the next six minutes, I will show you the math, the catch, and what to do with your own numbers."
+   }
+  ]
+ },
+ {
+  "id": "aturan",
+  "lines": [
+   {
+    "t": "First, the rules of this thought experiment."
+   },
+   {
+    "t": "You save two hundred dollars every month, which adds up to $2,400 a year."
+   },
+   {
+    "t": "We assume the money earns 7 percent a year, and we ignore taxes and fees."
+   },
+   {
+    "t": "Real returns change from year to year, and they can be negative, so treat every number here as an illustration."
+   },
+   {
+    "t": "The point is to see the shape of the curve, not to predict your future."
+   }
+  ]
+ },
+ {
+  "id": "realita",
+  "lines": [
+   {
+    "t": "Before the math, let's see where young adults stand today."
+   },
+   {
+    "t": "In 2025, the Federal Reserve asked people who are not retired whether their retirement saving was on track."
+   },
+   {
+    "t": "Overall, 35 percent said yes."
+   },
+   {
+    "t": "Among adults aged 18 to 29, only 22 percent said yes, and 38 percent had a tax-preferred retirement account."
+   },
+   {
+    "t": "Starting early is still uncommon, which is a big reason it matters."
+   }
+  ]
+ },
+ {
+  "id": "bank",
+  "lines": [
+   {
+    "t": "Now imagine you keep that $200 in an ordinary savings account."
+   },
+   {
+    "t": "The FDIC reported a national average savings rate of 0.38 percent in October 2026."
+   },
+   {
+    "t": "If that rate never changed, forty years of deposits would grow to about $103,700, and $96,000 of it is simply your own money."
+   },
+   {
+    "t": "That is a fine place for emergency cash."
+   },
+   {
+    "t": "But it shows why the rate you earn matters almost as much as the amount you save."
+   }
+  ]
+ },
+ {
+  "id": "bunga",
+  "lines": [
+   {
+    "t": "So how can the same $200 grow so much more?"
+   },
+   {
+    "t": "The Consumer Financial Protection Bureau describes compound interest as earning interest on your savings and on the interest you already earned."
+   },
+   {
+    "t": "Its example is $1,000 at 5 percent."
+   },
+   {
+    "t": "After year one you have $1,050, and after year two you have $1,102.50."
+   },
+   {
+    "t": "That extra $2.50 is interest earning interest, and over decades it snowballs."
+   }
+  ]
+ },
+ {
+  "id": "mulai25",
+  "lines": [
+   {
+    "t": "Now run our plan from age 25 to age 65."
+   },
+   {
+    "t": "You would deposit $96,000 over forty years."
+   },
+   {
+    "t": "At an assumed 7 percent, the balance would be roughly $525,000."
+   },
+   {
+    "t": "That means about $429,000 came from growth, not from your paycheck."
+   },
+   {
+    "t": "Notice that most of that growth arrives in the final decade."
+   }
+  ]
+ },
+ {
+  "id": "mulai35",
+  "lines": [
+   {
+    "t": "Now suppose you wait until 35 and save the same $200 a month for thirty years."
+   },
+   {
+    "t": "You would deposit $72,000, which is only $24,000 less."
+   },
+   {
+    "t": "But the balance would be roughly $244,000."
+   },
+   {
+    "t": "Waiting ten years cost about $281,000 in this example, even though you skipped just $24,000 of deposits."
+   },
+   {
+    "t": "Time in the account did the heavy lifting, not the size of the monthly payment."
+   }
+  ]
+ },
+ {
+  "id": "mulai45",
+  "lines": [
+   {
+    "t": "Wait until 45, and twenty years of saving would give you about $104,000."
+   },
+   {
+    "t": "To reach the same $525,000 from age 45, you would need to save about $1,000 a month."
+   },
+   {
+    "t": "Late starters are not doomed, but they have to save much more to close the gap."
+   }
+  ]
+ },
+ {
+  "id": "sabar",
+  "lines": [
+   {
+    "t": "Here is the catch, and it is a human one."
+   },
+   {
+    "t": "In the first five years, you would deposit $12,000, and the balance would be about $14,300."
+   },
+   {
+    "t": "Only around $2,300 of that is growth, which can feel like nothing."
+   },
+   {
+    "t": "Many people lose motivation in the part of the curve that looks the flattest."
+   },
+   {
+    "t": "The curve only bends upward after you have been patient for a decade or two."
+   }
+  ]
+ },
+ {
+  "id": "tempat",
+  "lines": [
+   {
+    "t": "So where could this money live?"
+   },
+   {
+    "t": "In the United States, a traditional or Roth IRA is a tax-preferred retirement account."
+   },
+   {
+    "t": "The IRS says that for people under 50, the contribution limit is $7,500 in 2026, up from $7,000 in 2025."
+   },
+   {
+    "t": "Our $2,400 a year fits well inside that limit."
+   },
+   {
+    "t": "If your employer offers a 401(k), ask whether it comes with a match."
+   }
+  ]
+ },
+ {
+  "id": "bantal",
+  "lines": [
+   {
+    "t": "One warning before you invest every spare dollar."
+   },
+   {
+    "t": "The Fed found that 55 percent of adults had set aside three months of expenses in a rainy day fund."
+   },
+   {
+    "t": "For adults aged 18 to 29, the number was 37 percent."
+   },
+   {
+    "t": "Without a cushion, a surprise bill can force you to pull money out early and break the chain."
+   },
+   {
+    "t": "So many people build a small emergency fund first, and then add the long-term habit."
+   }
+  ]
+ },
+ {
+  "id": "ukuran",
+  "lines": [
+   {
+    "t": "Maybe $200 is not realistic for you right now, and that is fine."
+   },
+   {
+    "t": "The Fed found that only 7 percent of non-retirees with family income under $25,000 felt on track, compared with 59 percent at $100,000 or more."
+   },
+   {
+    "t": "Income matters, so be honest about your budget."
+   },
+   {
+    "t": "The math scales: $50 a month from age 25 would become roughly a quarter of our result, about $131,000."
+   },
+   {
+    "t": "Start with an amount you can keep, and raise it whenever your pay goes up."
+   }
+  ]
+ },
+ {
+  "id": "penutup",
+  "lines": [
+   {
+    "t": "So what did two hundred dollars a month actually buy?"
+   },
+   {
+    "t": "Starting at 25, it turned $96,000 of deposits into roughly $525,000 in our illustration."
+   },
+   {
+    "t": "At 35, the same monthly habit reached about $244,000, and at 45, about $104,000."
+   },
+   {
+    "t": "The lesson is simple: the earlier the first deposit, the more years do the work for you."
+   },
+   {
+    "t": "Real returns will differ, so use these numbers as a map, not a promise."
+   },
+   {
+    "t": "This video is for education only and is not personal financial advice. Talk to a licensed professional before big decisions."
+   },
+   {
+    "t": "If this helped, follow the channel, and watch the next video about money lessons you were never taught."
+   }
+  ]
+ }
+]
